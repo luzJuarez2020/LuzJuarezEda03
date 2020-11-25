@@ -15,8 +15,15 @@ public class Evento {
 	
 	public Evento(TipoDeEvento tipoDeEvento) {
 		this.tipo=tipoDeEvento;
+		this.participantes=new HashMap<Integer, Deportista>();
 	}
 
+	public Integer agregarParticipante(Deportista nuevo) {
+		participantes.put(++this.numeroDeInscripcion,nuevo);
+		return this.numeroDeInscripcion;
+	}
+	
+	
 	public TipoDeEvento getTipo() {
 		return tipo;
 	}

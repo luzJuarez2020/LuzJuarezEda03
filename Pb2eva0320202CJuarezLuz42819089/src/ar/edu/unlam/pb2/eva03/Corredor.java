@@ -1,8 +1,9 @@
 package ar.edu.unlam.pb2.eva03;
 
-import ar.edu.unlam.pb2.eva03.interfaces.INadador;
+import ar.edu.unlam.pb2.eva03.interfaces.ICorredor;
 
-public class Corredor extends Deportista implements INadador {
+
+public class Corredor extends Deportista implements ICorredor {
 
 	private Integer distanciaPreferida;
 	private Integer CantidadDeKilometrosEntrenados=0;

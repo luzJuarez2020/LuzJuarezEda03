@@ -34,7 +34,7 @@ public class Club {
 		competencias.put(evento, new Evento(tipoDeEvento));
 	}
 	
-	
+
 	
 	
 }

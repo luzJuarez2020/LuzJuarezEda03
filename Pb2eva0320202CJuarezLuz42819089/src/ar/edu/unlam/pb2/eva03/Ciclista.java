@@ -1,9 +1,9 @@
 package ar.edu.unlam.pb2.eva03;
 
 import ar.edu.unlam.pb2.eva03.enumeradores.TipoDeBicicleta;
-import ar.edu.unlam.pb2.eva03.interfaces.INadador;
+import ar.edu.unlam.pb2.eva03.interfaces.ICiclista;
 
-public class Ciclista extends Deportista implements INadador{
+public class Ciclista extends Deportista implements ICiclista{
 	
 	private TipoDeBicicleta tipoDeBicicleta;
 	
