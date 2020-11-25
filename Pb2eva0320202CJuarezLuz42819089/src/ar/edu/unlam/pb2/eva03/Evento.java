@@ -13,4 +13,33 @@ public class Evento {
 	private Integer numeroDeInscripcion;
 	private Map<Integer, Deportista> participantes;
 	
+	public Evento(TipoDeEvento tipoDeEvento) {
+		this.tipo=tipoDeEvento;
+	}
+
+	public TipoDeEvento getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(TipoDeEvento tipo) {
+		this.tipo = tipo;
+	}
+
+	public Integer getNumeroDeInscripcion() {
+		return numeroDeInscripcion;
+	}
+
+	public void setNumeroDeInscripcion(Integer numeroDeInscripcion) {
+		this.numeroDeInscripcion = numeroDeInscripcion;
+	}
+
+	public Map<Integer, Deportista> getParticipantes() {
+		return participantes;
+	}
+
+	public void setParticipantes(Map<Integer, Deportista> participantes) {
+		this.participantes = participantes;
+	}
+	
+	
 }
